@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="all">
+        <div class="flex justify-between items-center p-10">
+            <p id="academy"></p>
+            <p id="student"></p>
+            <p id="timer"></p>
+        </div>
+   
+        <div class="mt-[50px]">
+           <div id="grid">
+                <div class="text-center mb-5">
+                    <h1 class="text-xl font-bold" id="question"></h1>
+                </div>
+                <div id="answers" class=" flex flex-col gap-5"></div>
+                
+           </div>
+        </div>
+        <div class="ml-[390px]">
+            <!-- <button class="border p-3">Submit</button> -->
+        </div>
+    </div>
+    <div class="border rounded-xl p-7 fixed z-index w-full text-center mt-8" style="display: none;" id="modalTotal">
+       
+    </div>
+
+    <script src="qui.js"></script>
+</body>
+</html>
